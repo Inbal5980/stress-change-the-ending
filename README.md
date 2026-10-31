@@ -1,2 +1,8 @@
-# stress-change-the-ending
-שנו את הסוף · Lazarus stress model game: change the ending
+# שנו את הסוף
+
+משחק על מודל האינטראקציה של לזרוס ללחץ: משנים את הפרשנות של הדמות ורואים איך הסוף משתנה. להטמעה בג'ניאלי.
+
+**לינק לאתר החי:** https://stress-change-the-ending.sites.tab.bot/
+
+---
+אתר סטטי (HTML/CSS/JS). כדי להריץ מקומית: לפתוח את `index.html` בדפדפן, או להפעיל שרת פשוט בתיקייה.

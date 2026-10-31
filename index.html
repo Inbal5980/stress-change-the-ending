@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>שנו את הסוף · מודל האינטראקציה של לזרוס</title>
+<meta name="description" content="משחק קצר על מודל האינטראקציה של לזרוס: בונים את המודל, ממיינים את המחשבות של הדמות ומשנים את הסוף.">
+<meta name="theme-color" content="#5b3fd1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/rubik-he.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="top-row">
+      <h1 id="t-title"></h1>
+      <button type="button" class="help-btn" id="help-btn" aria-haspopup="dialog">📘 תזכורת</button>
+    </div>
+    <div class="progress hidden" id="progress" aria-live="polite">
+      <div class="p-label"><b id="p-step"></b> <span id="p-name"></span></div>
+      <div class="p-bar"><i></i><i></i><i></i></div>
+    </div>
+  </header>
+
+  <main id="screen" class="screen"></main>
+</div>
+
+<div class="overlay hidden" id="help" role="dialog" aria-modal="true" aria-labelledby="help-title">
+  <div class="modal">
+    <h2 id="help-title">📘 תזכורת: מודל האינטראקציה</h2>
+    <div id="help-body"></div>
+    <button type="button" class="btn" id="help-close">הבנתי, חזרה למשחק</button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="config.js?v=4"></script>
+<script src="art.js?v=4"></script>
+<script src="media.js?v=4"></script>
+<script src="game.js?v=4"></script>
+</body>
+</html>
